@@ -3,6 +3,9 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="side_margin1">30dp</dimen>
-    <dimen name="side_margin2">20dp</dimen>
-    <dimen name="text_size1">18sp</dimen>
+    <dimen name="side_margin2">18dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="label_size">32sp</dimen>
+    <dimen name="main_size">18sp</dimen>
+    <dimen name="button_size">16sp</dimen>
 </resources>

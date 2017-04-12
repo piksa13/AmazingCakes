@@ -12,4 +12,60 @@
 
     </style>
 
+    <style name="main">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="top_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">@dimen/label_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/padding</item>
+        <item name="android:paddingBottom">@dimen/padding</item>
+    </style>
+
+    <style name="order">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">@drawable/layout_bg</item>
+    </style>
+
+    <style name="description">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">@dimen/main_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/side_margin2</item>
+        <item name="android:layout_marginBottom">@dimen/side_margin2</item>
+        <item name="android:layout_marginLeft">@dimen/side_margin1</item>
+        <item name="android:layout_marginRight">@dimen/side_margin1</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textSize">@dimen/button_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginLeft">@dimen/side_margin2</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="icon">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_marginLeft">@dimen/side_margin1</item>
+    </style>
 </resources>
